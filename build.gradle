@@ -58,6 +58,7 @@ java {
         archivesName = "flymod"
         distsDirectory = layout.buildDirectory.dir('custom-dist')
         libsDirectory = layout.buildDirectory.dir('custom-libs')
+        libsDirectory = layout.buildDirectory.dir('libs')
     }
     // Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
     // if it is present.

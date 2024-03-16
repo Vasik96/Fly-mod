@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "fly-mod",
+  "version": "1.1",
+  "name": "Fly-mod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/leman/Fly-mod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/fly-mod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.example.flymod.flymod.client.Fly_modClient"
+    ],
+    "main": [
+      "org.example.flymod.flymod.Fly_mod"
+    ]
+  },
+  "mixins": [
+    "fly-mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "fabric": "*",
+    "minecraft": "1.20.4"
+  }
+}

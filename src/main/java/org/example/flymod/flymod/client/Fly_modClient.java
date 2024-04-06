@@ -27,7 +27,7 @@ public class Fly_modClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         toggleFlyingKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-                "key.fly_mod.toggle_flying",
+                "Toggle Flying",
                 InputUtil.Type.KEYSYM,
                 GLFW.GLFW_KEY_G,
                 "Fly Mod"
